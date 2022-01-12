@@ -34,9 +34,23 @@ class Main {
     b2.setAuthor(a);
     System.out.println(b2);
 
+    System.out.println();
     System.out.println("Are the books equal? " + b.equals(b));
-
     System.out.println("Are the books equal? " + b.equals(b2));
 
+    System.out.println();
+    //Making default books
+    Book def1 = new Book();
+    Book def2 = new Book();
+    Book def3 = new Book();
+
+    System.out.println("This is default Book 1\n" + def1);
+    System.out.println();
+    System.out.println("This is default Book 2\n" + def2);
+    System.out.println();
+    System.out.println("This is default Book 3\n" + def3);
+    System.out.println();
+
+    System.out.println("Are the default books equal? " + def1.equals(def2));
   }
 }
